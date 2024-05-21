@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.blurNav{
+    background-color: #e7ddbf5d;
+    backdrop-filter: blur(10px);
+}
+
+.transition-custom{
+    transition: 1s;
+}
+
+.bg-bgHome{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.15)), url('/public/media/img/IMG_5492.jpg');
+    background-size: cover;
+}
+
+.bg-contacts{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.35), rgba(255, 255, 255, 0.25)), url('/public/media/img/IMG_5571.jpg');
+    background-size: cover;
+}
+
+.bg-bio{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.35), rgba(255, 255, 255, 0.25)), url('/public/media/img/IMG_5497.jpg');
+    background-size: cover;
+}
+
+
+
+@media screen and (max-width: 440px) {
+    
+    .bg-bgHome{
+        background-size: cover;
+    }
+}
