@@ -11,8 +11,8 @@
     <title>Document</title>
 </head>
 <body>
-    <x-nav/>  
-    <div class="min-h-screen">
+    <x-nav2/>  
+    <div class="min-h-screen" id="body">
 
         {{$slot}}
     </div>

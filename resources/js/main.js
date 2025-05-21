@@ -1,25 +1,45 @@
 // dropdown lingue 
 
-let dropdownLingue = document.querySelector("#dropdownLingue");
-let lingue = document.querySelector("#lingue");
+// let dropdownLingue = document.querySelector("#dropdownLingue");
+// let lingue = document.querySelector("#lingue");
 
-dropdownLingue.addEventListener("click", () => {
+// dropdownLingue.addEventListener("click", () => {
 
-    lingue.classList.toggle("hidden");
-})
+//     lingue.classList.toggle("hidden");
+// })
 
-// dropdown menu per schermi piccoli 
+// menu navbar 
 let menu = document.querySelector("#menu");
 let menuNav = document.querySelector("#menuNav");
+let menuClose = document.querySelector("#menuClose");
+let borderMenu = document.querySelector("#borderMenu");
 
 menu.addEventListener("click", ()=>{
 
-    menuNav.classList.toggle("hidden");
+    menuNav.classList.remove("menu");
+    menuNav.classList.add("menuOpen");
+    borderMenu.classList.add("borderMenu");
 })
 
-document.addEventListener("click", ()=>{
-    menuNav.classList.add("hidden");
+menuClose.addEventListener("click", () => {
+    menuNav.classList.remove("menuOpen");
+    menuNav.classList.add("menu");
+    borderMenu.classList.remove("borderMenu");
+
 })
+
+let body = document.querySelector("#body");
+body.addEventListener("click", () => {
+    menuNav.classList.remove("menuOpen");
+    menuNav.classList.add("menu");
+    borderMenu.classList.remove("borderMenu");
+
+    // lingue.classList.add("hidden");
+})
+
+// document.addEventListener("click", ()=>{
+//     menuNav.classList.add("hidden");
+// })
 
 // effetto blur per scroll verticale
 

@@ -17,7 +17,7 @@
                      <h2 class="font-text text-xl pe-5 pt-10 font-semibold text-end">E-mail</h2>   
                 </div>
                 <div class="w-1/2 h-full ">
-                    <h2 class="font-text text-xl ps-5 pt-3 font-semibold">+39 339 145 4267 <br>+31 (0)6 33 27 7471</h2>
+                    <h2 class="font-text text-xl ps-5 pt-3 font-semibold">+39 339 145 4267 <br>+31 (0)6 33 27 74 71</h2>
                     <h2 class="font-text text-xl ps-5 pt-3 font-semibold">elena.gelmi90@gmail.com</h2> 
                 </div>
             </div>
