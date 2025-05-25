@@ -46,4 +46,40 @@ class PublicController extends Controller
         Session::put('locale', $lang);
         return redirect()->back();
     }
+
+    // rotta parametrica dettaglio video
+    public function detailPhoto($title){
+        $photos = [
+            [
+            "title" => "photo1",
+            "author" => "elena",
+            "link" => "/media/img/DSC_2523.JPG"
+            ],
+
+            [
+            "title" => "photo2",
+            "author" => "elena",
+            "link" => "/media/img/DSC_2575.JPG"
+            ],
+
+            [
+            "title" => "photo3",
+            "author" => "elena",
+            "link" => "/media/img/DSC_2582.JPG"
+            ],
+
+            [
+            "title" => "photo4",
+            "author" => "elena",
+            "link" => "/media/img/DSC_2596.JPG"
+            ],
+        ];
+
+        foreach($photos as $photo){
+            if ($photo['title'] == $title){
+                return view("detailPhoto", ['photo' => $photo]);
+            } 
+        }
+
+    }
 }

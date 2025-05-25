@@ -1,7 +1,7 @@
 <nav>
     <div class="w-full h-1/10 drop-shadow-lg fixed mt-0 me-0 border-b border-gray-600 transition-custom z-10 flex" id="scrollNav">
-        <div class="w-1/4 md:w-1/12 h-full flex justify-center bg-red-500">
-            <div class="my-auto bg-yellow-400"><a href="/" class="font-title font-bold text-5xl mx-auto my-auto ">EG</a></div>
+        <div class="w-1/4 md:w-1/12 h-full flex justify-center">
+            <div class="my-auto"><a href="/" class="font-title font-bold text-5xl mx-auto my-auto ">EG</a></div>
         </div>
         <div class="w-1/2 md:w-10/12 h-full"></div>
         <div class="w-1/4 md:w-1/12 h-full ">

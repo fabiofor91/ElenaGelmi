@@ -26,3 +26,6 @@ Route::get('/contacts', [PublicController::class, 'contacts'])->name('contacts')
 
 // rotta mail
 Route::post('/contact/submit', [MailController::class, 'contactMail'])->name('contact_mail');
+
+// esempio rotta parametrica
+Route::get('/medias/{title}', [PublicController::class, 'detailPhoto'])->name("detailPhoto");
